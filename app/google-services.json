@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168889979844",
+    "firebase_url": "https://logindemo-b5059.firebaseio.com",
+    "project_id": "logindemo-b5059",
+    "storage_bucket": "logindemo-b5059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168889979844:android:493a2e98071721eae7ca91",
+        "android_client_info": {
+          "package_name": "com.abc.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168889979844-gpe773ak48m3utraromm5h1jlskedfdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abc.loginapp",
+            "certificate_hash": "e2a39465764dc6672eb646cf1a1677085ae43f16"
+          }
+        },
+        {
+          "client_id": "168889979844-hfpsr8pp54f9ho6n3oa95e3vbra5ilo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8YXbZADKntjTMZPUAmoa20ASe_adNEn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168889979844-hfpsr8pp54f9ho6n3oa95e3vbra5ilo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    tools:context=".chatactivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msglist"
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:background="@drawable/keyboard">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="470dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="252dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignTop="@+id/chat_layout"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="Write Your Message"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/sendbutt"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/chat_layout"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_send" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/chat_layout"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

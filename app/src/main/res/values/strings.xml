@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login App</string>
+    <string name="no_of_attempts_remaining">No of Attempts Remaining:</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="title_activity_second2">secondActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/EspnMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="ESPN">
+    </item>
+    <item
+        android:id="@+id/ignMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="IGN">
+    </item>
+
+    <item
+        android:id="@+id/SciencentechMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Science,9">
+    </item>
+
+    <item
+        android:id="@+id/cnnMenu"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:title="CNN">
+    </item>
+</menu>
